@@ -47,19 +47,19 @@ export default {
     return {
       articles: [
         {
-          src: './product_image/woven.jpg',
+          src: require('../../assets/product_image/woven.jpg'),
           title: 'Woven',
           text:
             'Formal & Casual Shirts, 5 pocket and Chino Long Pants, Denim Pants, Shorts, Trousers, Bermuda, Boxers, Tie, Bow Tie, Shawl Tie and many more items. We are capable of producing these products. Please contact us for your inquiries.'
         },
         {
-          src: './product_image/knit.jpg',
+          src: require('../../assets/product_image/knit.jpg'),
           title: 'Knit',
           text:
             'T Shirts, Polo Shirts, Sweatshirt, Knitted Jacket, Hoodies, Jogger Pants, Shorts, Kids Apparels, Knitted Underwears and many more items. We are capable of producing these products. Please contact us for your inquiries.'
         },
         {
-          src: './product_image/sweater.jpg',
+          src: require('../../assets/product_image/sweater.jpg'),
           title: 'Sweater',
           text:
             'Sweaters, Cardigan, Vest, Pull Over, Scarf and many more items. We are capable of producing these products. Please contact us for your inquiries.'

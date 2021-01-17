@@ -4,7 +4,7 @@
       <v-img
         contain
         max-height="60%"
-        src="../assets/logo-web.png"
+        :src="require('../assets/logo-web.png')"
         alt="JRM Logo"
         @click="$vuetify.goTo('#home')"
         style="cursor: pointer;"

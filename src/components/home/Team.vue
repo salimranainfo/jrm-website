@@ -79,7 +79,7 @@ export default {
     return {
       teams: [
         {
-          src: './team_image/mohsin.jpg',
+          src: require('../../assets/team_image/mohsin.jpg'),
           alt: 'Md Dadion Mia Mohsin Picture',
           name: 'Md Dadion Mia Mohsin',
           designation: 'Chairman',
@@ -87,7 +87,7 @@ export default {
             'Mohsin has more than 30 years of experience in Apparel Merchandising, Marketing & Production. He has worked in floor level Production Control, CAD design, Pattern, Quality control, Merchandiding & Marketing in big factories.'
         },
         {
-          src: './team_image/babu.jpg',
+          src: require('../../assets/team_image/babu.jpg'),
           alt: 'Jahanur Rahman Babu Picture',
           name: 'Jahanur Rahman Babu',
           designation: 'Managing Director',
@@ -95,7 +95,7 @@ export default {
             'Babu has more than 20 years of experience in Apparel Merchandising, Marketing & Production. He has experience of running a whole factory in management level. He has also worked in big factories in Merchandising, Marketing and Production.'
         },
         {
-          src: './team_image/rana.jpg',
+          src: require('../../assets/team_image/rana.jpg'),
           alt: 'Md Salim Rana Picture',
           name: 'Md Salim Rana',
           designation: 'Director Marketing & Merchandising',

@@ -2,8 +2,8 @@
   <v-app id="home">
     <!-- Loader - When website loads this will be displayed. Once lading completes, this will disappear -->
     <div class="loader">
-      <img src="./assets/logo-web.png" alt="JRM Logo" />
-      <img src="./assets/loader.gif" alt="Loading...." />
+      <img :src="require('./assets/logo-web.png')" alt="JRM Logo" />
+      <img :src="require('./assets/loader.gif')" alt="Loading...." />
     </div>
     <!-- Header - Logo and Menu -->
     <Header />
