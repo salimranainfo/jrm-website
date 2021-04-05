@@ -31,7 +31,7 @@
       </div>
 
       <!-- Product Details -->
-      <div class="p-4 w-full">
+      <div class="p-4 w-full ">
         <transition name="showTab">
           <knit v-if="activeTitle === 'knit'" />
           <woven v-if="activeTitle === 'woven'" />
