@@ -21,35 +21,35 @@ export default {
           fabrication: '100% Cotton',
           moq: '200 pcs',
           leadTime: '90 days',
-          img: require('../../assets/product_image/t-shirt.png')
+          img: require('../../assets/product_image/sweater/sweater-2.jpg')
         },
         {
           name: 'T-shirt',
           fabrication: '100% Cotton',
           moq: '200 pcs',
           leadTime: '90 days',
-          img: require('../../assets/product_image/t-shirt.png')
+          img: require('../../assets/product_image/sweater/sweater-2.jpg')
         },
         {
           name: 'T-shirt',
           fabrication: '100% Cotton',
           moq: '200 pcs',
           leadTime: '90 days',
-          img: require('../../assets/product_image/t-shirt.png')
+          img: require('../../assets/product_image/sweater/sweater-2.jpg')
         },
         {
           name: 'T-shirt',
           fabrication: '100% Cotton',
           moq: '200 pcs',
           leadTime: '90 days',
-          img: require('../../assets/product_image/t-shirt.png')
+          img: require('../../assets/product_image/sweater/sweater-2.jpg')
         },
         {
           name: 'T-shirt',
           fabrication: '100% Cotton',
           moq: '200 pcs',
           leadTime: '90 days',
-          img: require('../../assets/product_image/t-shirt.png')
+          img: require('../../assets/product_image/sweater/sweater-2.jpg')
         }
       ]
     }

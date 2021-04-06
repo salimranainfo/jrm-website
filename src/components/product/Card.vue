@@ -7,7 +7,7 @@
     <div
       v-for="(product, i) in products"
       :key="i"
-      class="w-64 mx-auto flex flex-col justify-center items-center rounded-lg overflow-hidden shadow-box"
+      class="w-64 mx-auto flex flex-col justify-center items-center rounded-lg overflow-hidden shadow-box font-semibold"
     >
       <!-- Card Image -->
       <div class="p-2">
@@ -46,7 +46,7 @@ export default {
     products: {
       type: Array,
       default: () => {
-        return 'Did not find any data'
+        return ['Did not find any data']
       }
     }
   }

@@ -15,7 +15,7 @@
         class="border-b-2 hover:border-transparent hover:shadow-2xl transition duration-500 ease-in-out"
       >
         <td>
-          <img :src="product.img" :alt="product.name" class="w-20 mx-auto" />
+          <img :src="product.img" :alt="product.name" class="h-20 mx-auto" />
         </td>
         <td>{{ product.name }}</td>
         <td>{{ product.fabrication }}</td>
@@ -33,7 +33,7 @@ export default {
     products: {
       type: Array,
       default: () => {
-        return 'Did not find any data'
+        return ['Did not find any data']
       }
     }
   },
