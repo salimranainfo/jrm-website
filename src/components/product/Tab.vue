@@ -1,10 +1,7 @@
 <template>
-  <div class="w-full bg-gray-200 p-4">
-    <h1>Tabs</h1>
-    <button>Back to Home</button>
-
+  <div class="w-full bg-gray-100 p-4">
     <!-- Tab -->
-    <div class="w-full flex flex-col bg-gray-50 shadow-2xl">
+    <div class="w-full flex flex-col bg-gray-50 shadow-lg">
       <!-- Buttons -->
       <div class="border flex justify-around items-center shadow-md">
         <button
@@ -31,11 +28,11 @@
       </div>
 
       <!-- Product Details -->
-      <div class="p-4 w-full ">
+      <div class="p-4 w-full overflow-x-hidden">
         <transition name="showTab">
-          <knit v-if="activeTitle === 'knit'" />
-          <woven v-if="activeTitle === 'woven'" />
-          <sweater v-if="activeTitle === 'sweater'" />
+          <knit class="w-full" v-if="activeTitle === 'knit'" />
+          <woven class="w-full" v-if="activeTitle === 'woven'" />
+          <sweater class="w-full" v-if="activeTitle === 'sweater'" />
         </transition>
       </div>
     </div>
@@ -62,20 +59,29 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .active {
   @apply bg-green-800 text-white;
 }
 
 .showTab-enter-active,
-.show-leave-active {
+.showTab-leave-active {
   opacity: 1;
+  width: 100%;
+  transform: translateX(0);
   transition: all 0.5s;
 }
 
-.showTab-enter,
+.showTab-enter {
+  opacity: 0;
+  max-height: 0;
+  transform: translateX(100%);
+  transition: all 0.5s;
+}
+
 .showTab-leave-to {
   opacity: 0;
+  transform: translateX(-100%);
   max-height: 0;
   transition: all 0.5s;
 }

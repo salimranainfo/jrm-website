@@ -12,7 +12,7 @@
       <tr
         v-for="(product, i) in products"
         :key="i"
-        class="border-b-2 hover:border-transparent hover:shadow-2xl transition duration-500 ease-in-out"
+        class="border-b-2 hover:border-transparent hover:bg-gray-200 transition duration-200 ease-in-out"
       >
         <td>
           <img :src="product.img" :alt="product.name" class="h-20 mx-auto" />

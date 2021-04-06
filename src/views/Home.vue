@@ -5,14 +5,16 @@
     <Team />
     <Services />
     <Stats />
-    <Products />
+    <Products @show-modal="showModal = true" />
     <Brands />
     <Contact />
+    <Product v-if="showModal" @close-modal="showModal = false" />
   </v-content>
 </template>
 
 <script>
 // @ is an alias to /src
+import Product from '../components/product/Product.vue'
 import Banner from '../components/home/Banner.vue'
 import About from '../components/home/About.vue'
 import Team from '../components/home/Team.vue'
@@ -33,7 +35,14 @@ export default {
     Stats,
     Products,
     Brands,
-    Contact
+    Contact,
+    Product
+  },
+
+  data() {
+    return {
+      showModal: false
+    }
   }
 }
 </script>

@@ -24,25 +24,25 @@
           </v-app-bar-nav-icon>
         </template>
         <v-list>
-          <v-list-item @click="$vuetify.goTo('#home')">
+          <v-list-item @click="$vuetify.goTo('/')">
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
-          <v-list-item @click="$vuetify.goTo('#about-us')">
+          <v-list-item @click="$vuetify.goTo('/#about-us')">
             <v-list-item-title>About Us</v-list-item-title>
           </v-list-item>
-          <v-list-item @click="$vuetify.goTo('#teams')">
+          <v-list-item @click="$vuetify.goTo('/#teams')">
             <v-list-item-title>Our Team</v-list-item-title>
           </v-list-item>
-          <v-list-item @click="$vuetify.goTo('#services')">
+          <v-list-item @click="$vuetify.goTo('/#services')">
             <v-list-item-title>Our Services</v-list-item-title>
           </v-list-item>
-          <v-list-item @click="$vuetify.goTo('#products')">
+          <v-list-item @click="$vuetify.goTo('/#products')">
             <v-list-item-title>Products</v-list-item-title>
           </v-list-item>
-          <v-list-item @click="$vuetify.goTo('#brands')">
+          <v-list-item @click="$vuetify.goTo('/#brands')">
             <v-list-item-title>Brands</v-list-item-title>
           </v-list-item>
-          <v-list-item @click="$vuetify.goTo('#contact')">
+          <v-list-item @click="$vuetify.goTo('/#contact')">
             <v-list-item-title>Contact</v-list-item-title>
           </v-list-item>
         </v-list>

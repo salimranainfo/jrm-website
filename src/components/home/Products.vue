@@ -7,6 +7,15 @@
         OUR PRODUCTS
       </h2>
 
+      <div class="flex justify-center align-center my-6">
+        <button
+          class="font-weight-bold text-2xl underline text-center text-indigo-500"
+          @click="$emit('show-modal')"
+        >
+          See Product list, MOQ, Leadtime
+        </button>
+      </div>
+
       <v-responsive class="mx-auto" width="56">
         <v-divider class="mb-1"></v-divider>
 

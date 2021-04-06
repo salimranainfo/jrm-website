@@ -1,13 +1,13 @@
 <template>
   <!-- container -->
   <div
-    class="w-full space-y-4 md:space-y-0 md:grid grid-flow-row grid-cols-2 gap-y-8 justify-items-center"
+    class="w-full space-y-4 md:space-y-0 md:grid grid-flow-row grid-cols-2 gap-y-8 gap-x-8 justify-items-center"
   >
     <!-- Card -->
     <div
       v-for="(product, i) in products"
       :key="i"
-      class="w-64 mx-auto flex flex-col justify-center items-center rounded-lg overflow-hidden shadow-box font-semibold"
+      class="w-full mx-auto flex flex-col justify-center items-center rounded-md overflow-hidden shadow-box font-semibold"
     >
       <!-- Card Image -->
       <div class="p-2">
@@ -53,8 +53,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .shadow-box {
-  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.35);
 }
 </style>
