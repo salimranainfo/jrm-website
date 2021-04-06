@@ -1,28 +1,73 @@
 <template>
   <div>
-    <!-- Card Container -->
-    <div class="flex justify-center items-center space-x-2">
-      <div>
-        <img
-          src="../../assets/product_image/knit.jpg"
-          alt=""
-          class="h-20 w-48"
-        />
-      </div>
-      <div>
-        <p>Product Name: Woven</p>
-        <p>Fabrication</p>
-        <p>MOQ</p>
-        <p>Lead Time</p>
-      </div>
-    </div>
+    <card v-if="windowWidth < 1024" :products="products" />
+    <Table v-else :products="products" />
   </div>
 </template>
 
 <script>
+import Card from './Card.vue'
+import Table from './Table.vue'
+
 export default {
-  name: 'Woven'
+  components: { Card, Table },
+  name: 'Woven',
+  data() {
+    return {
+      windowWidth: null,
+      products: [
+        {
+          name: 'T-shirt',
+          fabrication: '100% Cotton',
+          moq: '200 pcs',
+          leadTime: '90 days',
+          img: require('../../assets/product_image/t-shirt.png')
+        },
+        {
+          name: 'T-shirt',
+          fabrication: '100% Cotton',
+          moq: '200 pcs',
+          leadTime: '90 days',
+          img: require('../../assets/product_image/t-shirt.png')
+        },
+        {
+          name: 'T-shirt',
+          fabrication: '100% Cotton',
+          moq: '200 pcs',
+          leadTime: '90 days',
+          img: require('../../assets/product_image/t-shirt.png')
+        },
+        {
+          name: 'T-shirt',
+          fabrication: '100% Cotton',
+          moq: '200 pcs',
+          leadTime: '90 days',
+          img: require('../../assets/product_image/t-shirt.png')
+        },
+        {
+          name: 'T-shirt',
+          fabrication: '100% Cotton',
+          moq: '200 pcs',
+          leadTime: '90 days',
+          img: require('../../assets/product_image/t-shirt.png')
+        }
+      ]
+    }
+  },
+
+  mounted() {
+    this.windowWidth = window.innerWidth
+
+    window.addEventListener('resize', () => {
+      this.windowWidth = window.innerWidth
+      console.log(this.windowWidth)
+    })
+  }
 }
 </script>
 
-<style></style>
+<style>
+.shadow-box {
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.75);
+}
+</style>
