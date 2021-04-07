@@ -1,8 +1,8 @@
 <template>
   <div>
-    <table class="w-full border">
+    <table class="w-full border text-center">
       <tr class="bg-gray-300">
-        <th>Photo</th>
+        <th class="py-2">Photo</th>
         <th>Item</th>
         <th>Fabrication</th>
         <th>MOQ</th>
@@ -43,8 +43,12 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 td {
   @apply p-2 text-center;
+}
+
+th {
+  @apply py-2;
 }
 </style>

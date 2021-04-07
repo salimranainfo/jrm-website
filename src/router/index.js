@@ -9,6 +9,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/:product',
+    name: 'Home',
+    component: Home
   }
 ]
 

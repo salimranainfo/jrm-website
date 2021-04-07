@@ -43,6 +43,12 @@ export default {
     return {
       showModal: false
     }
+  },
+
+  mounted() {
+    if (this.$route.params.product === 'product') {
+      this.showModal = true
+    }
   }
 }
 </script>

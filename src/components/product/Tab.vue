@@ -1,7 +1,9 @@
 <template>
-  <div class="w-full bg-gray-100 p-4">
+  <div class="w-full bg-gray-100 p-4 rounded-lg">
     <!-- Tab -->
-    <div class="w-full flex flex-col bg-gray-50 shadow-lg">
+    <div
+      class="w-full flex flex-col bg-gray-50 shadow-lg rounded-lg overflow-hidden"
+    >
       <!-- Buttons -->
       <div class="border flex justify-around items-center shadow-md">
         <button

@@ -2,7 +2,7 @@
   <div
     class="fixed top-0 left-0 w-screen h-screen bg-gray-900 z-50 bg-opacity-70 overflow-y-auto py-4 lg:py-16"
   >
-    <div class="mx-auto bg-white p-2 lg:p-6 relative width">
+    <div class="mx-auto bg-white p-2 lg:p-6 relative width rounded-md">
       <span
         class="absolute top-0 right-0 text-4xl font-mono pt-2 pr-4 cursor-pointer"
         @click="$emit('close-modal')"
