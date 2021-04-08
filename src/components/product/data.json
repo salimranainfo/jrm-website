@@ -1,0 +1,22 @@
+[
+  {
+    "item": "t-shirt",
+    "type": "knit"
+  },
+  {
+    "item": "polo",
+    "type": "knit"
+  },
+  {
+    "item": "pant",
+    "type": "woven"
+  },
+  {
+    "item": "sweater",
+    "type": "sweater"
+  },
+  {
+    "item": "jacket",
+    "type": "woven"
+  }
+]
