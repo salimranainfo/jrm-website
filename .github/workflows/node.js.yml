@@ -28,3 +28,4 @@ jobs:
         cache: 'yarn'
     - run: yarn install
     - run: yarn build
+    - run: cp -r ./dist/ /home/ubuntu/www/jrm-website
