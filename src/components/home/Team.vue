@@ -3,7 +3,7 @@
     <div class="py-6"></div>
 
     <v-container class="text-center">
-      <h2 class="display-2 font-weight-bold mb-3">MEET THE JRM LEADERS</h2>
+      <h2 class="display-2 font-weight-bold mb-3">MEET THE TEAM LEADERS</h2>
 
       <v-responsive class="mx-auto mb-8" width="56">
         <v-divider class="mb-1"></v-divider>
@@ -25,7 +25,7 @@
             align="center"
             justify="center"
             max-width="375"
-            min-height="545"
+            min-height="475"
           >
             <div style="height: 20px;"></div>
 
@@ -48,21 +48,19 @@
               }}</v-card-text>
             </div>
 
-            <v-spacer></v-spacer>
-
-            <div class="align-self-center">
-              <v-btn icon>
-                <v-icon>fab fa-linkedin</v-icon>
-              </v-btn>
-              <v-btn icon>
-                <v-icon>fab fa-twitter-square</v-icon>
-              </v-btn>
-              <v-btn icon>
-                <v-icon>fab fa-facebook-square</v-icon>
-              </v-btn>
-            </div>
-
-            <div style="height: 10px"></div>
+            <!--
+              <div class="align-self-center">
+                <v-btn icon>
+                  <v-icon>fab fa-linkedin</v-icon>
+                </v-btn>
+                <v-btn icon>
+                  <v-icon>fab fa-twitter-square</v-icon>
+                </v-btn>
+                <v-btn icon>
+                  <v-icon>fab fa-facebook-square</v-icon>
+                </v-btn>
+              </div> 
+            -->
           </v-card>
         </v-col>
       </v-row>
@@ -79,28 +77,28 @@ export default {
     return {
       teams: [
         {
-          src: require('../../assets/team_image/mohsin.jpg'),
-          alt: 'Md Dadion Mia Mohsin Picture',
-          name: 'Md Dadion Mia Mohsin',
-          designation: 'Chairman',
+          src: require('../../assets/team_image/mamun.jpg'),
+          alt: 'Md Mahedi Hasan Mamun Picture',
+          name: 'Md Mahedi Hasan Mamun',
+          designation: 'Manager Operations',
           details:
-            'Mohsin has more than 30 years of experience in Apparel Merchandising, Marketing & Production. He has worked in floor level Production Control, CAD design, Pattern, Quality control, Merchandiding & Marketing in big factories.'
+            'Mamun has more than 10 years of experience in Apparel Merchandising, Marketing & Production. He has experience of running a whole factory in management level. He has also worked in big factories in Merchandising, Marketing and Production.'
         },
         {
-          src: require('../../assets/team_image/babu.jpg'),
-          alt: 'Jahanur Rahman Babu Picture',
-          name: 'Jahanur Rahman Babu',
-          designation: 'Managing Director',
+          src: require('../../assets/team_image/zakir.jpg'),
+          alt: 'Md Zakir Hossain Picture',
+          name: 'Md Zakir Hossain',
+          designation: 'Co-Founder and Managing Director',
           details:
-            'Babu has more than 20 years of experience in Apparel Merchandising, Marketing & Production. He has experience of running a whole factory in management level. He has also worked in big factories in Merchandising, Marketing and Production.'
+            'Zakir has more than 15 years of experience in Apparel Merchandising, Marketing & Production. He has worked in floor level Production Control, CAD design, Pattern, Quality control, Merchandiding & Marketing in big factories.'
         },
         {
-          src: require('../../assets/team_image/rana.jpg'),
+          src: require('../../assets/team_image/salim.jpg'),
           alt: 'Md Salim Rana Picture',
           name: 'Md Salim Rana',
-          designation: 'Director Marketing & Merchandising',
+          designation: 'Founder',
           details:
-            'Rana has more than 12 years of experience in Apparel Merchandising & Marketing. He has worked in a few giant European retailers and buying houses in these years as well as in big factories.'
+            'Salim has more than 15 years of experience in Apparel Merchandising & Marketing. He has worked in a few giant European retailers and buying houses in these years as well as in big factories.'
         }
       ]
     }

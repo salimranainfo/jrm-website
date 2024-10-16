@@ -12,7 +12,7 @@
     </v-avatar>
 
     <v-toolbar-title class="font-weight-black headline">
-      JRM Global Sourcing
+      SR Clothing Studio
     </v-toolbar-title>
 
     <v-spacer></v-spacer>

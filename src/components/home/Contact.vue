@@ -14,7 +14,7 @@
         >
           <h4 class="text-subtitile-1 font-weight-light mb-3">Address:</h4>
           <address class="text-body-1 font-weight-light">
-            Kha Para Road (In front of Seasons Dresses Ltd)<br />
+            Adarsha Para, Kha Para Road<br />
             Tongi, Gazipur - 1711<br />
             Bangladesh
           </address>
@@ -22,7 +22,7 @@
           <h4 class="text-subtitile-1 font-weight-light">
             Mobile:
             <a href="tel:+8801715040028" style="text-decoration: none;">
-              +88 01715-040028
+              +88 01915-602798
             </a>
           </h4>
           <h4 class="text-subtitile-1 font-weight-light">
@@ -30,7 +30,7 @@
             <a
               href="mailto:rana@jrmglobalsourcing.com"
               style="text-decoration: none;"
-              >rana@jrmglobalsourcing.com</a
+              >zakir@srclothingstudio.com</a
             >
           </h4>
         </v-col>

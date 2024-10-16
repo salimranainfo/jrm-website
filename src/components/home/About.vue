@@ -15,7 +15,7 @@
         class="mx-auto title font-weight-light mb-8"
         max-width="720"
       >
-        JRM Global Sourcing has been established by some
+        SR Clothing Studio has been established by some
         <strong>heavily experienced veterans</strong> in Apparel Merchandising &
         Production sector in Bangladesh. It is currently serving many clients
         from the <strong>EU, Canada, Australia & USA</strong> with pride. We are

@@ -29,7 +29,7 @@
                   ]"
                   class="font-weight-black"
                 >
-                  JRM Global Sourcing
+                  SR Clothing Studio
                 </span>
               </v-col>
 

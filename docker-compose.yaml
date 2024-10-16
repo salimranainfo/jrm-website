@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  src:
+    build: .
+    container_name: src
+    restart: always
+    networks:
+      - tunnel
+
+networks:
+  tunnel:
+    external: true
+      
