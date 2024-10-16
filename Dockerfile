@@ -8,13 +8,13 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+RUN yarn install
 
 # Copy the rest of the application code to the working directory
 COPY . .
 
 # Build the Vue.js application
-RUN npm run build
+RUN yarn build
 
 # Install nginx
 RUN apt-get update && apt-get install -y nginx
