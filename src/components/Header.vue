@@ -1,8 +1,14 @@
 <template>
   <v-app-bar app color="white" height="100">
-    <v-avatar tile class="mr-3" color="grey lighten-5" size="70">
-      <img src="/logo.svg" alt="" style="" />
-    </v-avatar>
+    <div>
+      <a href="#">
+        <img
+          src="/logo.svg"
+          alt="SR Clothing Studio Logo"
+          style="height: auto; display: inline-block;"
+        />
+      </a>
+    </div>
 
     <v-spacer></v-spacer>
 
