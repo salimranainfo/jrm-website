@@ -1,5 +1,5 @@
 <template>
-  <v-content>
+  <v-main>
     <Banner />
     <About />
     <Team />
@@ -9,7 +9,7 @@
     <Brands />
     <Contact />
     <Product v-if="showModal" @close-modal="showModal = false" />
-  </v-content>
+  </v-main>
 </template>
 
 <script>

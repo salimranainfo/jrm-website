@@ -1,19 +1,8 @@
 <template>
   <v-app-bar app color="white" height="100">
     <v-avatar tile class="mr-3" color="grey lighten-5" size="70">
-      <v-img
-        contain
-        max-height="60%"
-        :src="require('../assets/logo-web.png')"
-        alt="JRM Logo"
-        @click="$vuetify.goTo('#home')"
-        style="cursor: pointer;"
-      ></v-img>
+      <img src="/logo.svg" alt="" style="" />
     </v-avatar>
-
-    <v-toolbar-title class="font-weight-black headline">
-      SR Clothing Studio
-    </v-toolbar-title>
 
     <v-spacer></v-spacer>
 
