@@ -21,16 +21,16 @@
           <v-divider class="my-3"></v-divider>
           <h4 class="text-subtitile-1 font-weight-light">
             Mobile:
-            <a href="tel:+8801715040028" style="text-decoration: none;">
+            <a href="tel:+8801915602798" style="text-decoration: none;">
               +88 01915-602798
             </a>
           </h4>
           <h4 class="text-subtitile-1 font-weight-light">
             Email:
             <a
-              href="mailto:rana@jrmglobalsourcing.com"
+              href="mailto:srwebstudiobd@gmail.com"
               style="text-decoration: none;"
-              >zakir@srclothingstudio.com</a
+              >srwebstudiobd@gmail.com</a
             >
           </h4>
         </v-col>
